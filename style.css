@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+#output-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.person {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#output-container .person {
+    display: flex;
+    flex-direction: column;
+}
+
+#output-container .person > div {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#output-container .name {
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+#output-container .age {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+#output-container .city {
+    background-color: #f0ad4e;
+    color: #fff;
+}
